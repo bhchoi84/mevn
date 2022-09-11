@@ -4,7 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/test.js"
+
+    "test": "node ./test/test.js",
+    "hoisting": "node ./test/ch1/hoisting.js",
+    "hoistingDefenseLet": "node ./test/ch1/hoistingDefenseLet.js",
+    "letAndConstOfHoisting": "node ./test/ch1/letAndConstOfHoisting.js",
+    "arrowFunction": "node ./test/ch1/arrowFunction.js",
+    "functions": "node ./test/ch2/functions.js",
+
+    "find": "node ./test/ch2/find.js",
+    "es6type":  "node ./test/ch2/es6type",
+    "spread": "node ./test/ch2/spread"
+    
   },
   "author": "",
   "license": "ISC",
